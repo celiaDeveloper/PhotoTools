@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2FB1E61F298BCE00BE3D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1E51F298BCE00BE3D8F /* ViewController.m */; };
+		3F2FB1E91F298C0B00BE3D8F /* XDNineGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1E81F298C0B00BE3D8F /* XDNineGridViewController.m */; };
+		3F2FB1ED1F29B2FB00BE3D8F /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1EC1F29B2FB00BE3D8F /* UIView+extension.m */; };
+		3F2FB1F11F29D42300BE3D8F /* XDWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1F01F29D42300BE3D8F /* XDWaterFallViewController.m */; };
+		3F2FB1F41F29D50600BE3D8F /* XDWaterFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1F31F29D50600BE3D8F /* XDWaterFallView.m */; };
+		3F2FB1F71F29DC5500BE3D8F /* XDWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1F61F29DC5500BE3D8F /* XDWaterFallLayout.m */; };
+		3F2FB1FA1F29E9DF00BE3D8F /* XDWaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1F91F29E9DF00BE3D8F /* XDWaterFallCell.m */; };
+		3F2FB1FD1F29EC7E00BE3D8F /* XDWaterFallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FB1FC1F29EC7E00BE3D8F /* XDWaterFallModel.m */; };
+		3F2FB2031F29F1B600BE3D8F /* 0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FB1FF1F29F1B600BE3D8F /* 0.plist */; };
+		3F2FB2041F29F1B600BE3D8F /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FB2001F29F1B600BE3D8F /* 1.plist */; };
+		3F2FB2051F29F1B600BE3D8F /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FB2011F29F1B600BE3D8F /* 2.plist */; };
+		3F2FB2061F29F1B600BE3D8F /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FB2021F29F1B600BE3D8F /* 3.plist */; };
+		3F37EA5D1F28466100C881C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA5C1F28466100C881C6 /* main.m */; };
+		3F37EA601F28466100C881C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA5F1F28466100C881C6 /* AppDelegate.m */; };
+		3F37EA661F28466100C881C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EA641F28466100C881C6 /* Main.storyboard */; };
+		3F37EA681F28466100C881C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EA671F28466100C881C6 /* Assets.xcassets */; };
+		3F37EA6B1F28466100C881C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37EA691F28466100C881C6 /* LaunchScreen.storyboard */; };
+		3F37EA771F2875DB00C881C6 /* XDNineGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA761F2875DB00C881C6 /* XDNineGridView.m */; };
+		3F37EA7A1F28791200C881C6 /* XDNineGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA791F28791200C881C6 /* XDNineGridCell.m */; };
+		3F37EA7D1F287B6700C881C6 /* XDNineGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA7C1F287B6700C881C6 /* XDNineGridModel.m */; };
+		3F37EA801F28938F00C881C6 /* XDPhotoBrowse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA7F1F28938F00C881C6 /* XDPhotoBrowse.m */; };
+		3F37EA831F28951E00C881C6 /* XDPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA821F28951E00C881C6 /* XDPhotoBrowseCell.m */; };
+		3F37EA861F289FA400C881C6 /* XDPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37EA851F289FA400C881C6 /* XDPhotoBrowseController.m */; };
+		3F8706131F2AEF150078DD73 /* XDLuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8706121F2AEF150078DD73 /* XDLuckyViewController.m */; };
+		3F8706171F2AEF4F0078DD73 /* LuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8706161F2AEF4F0078DD73 /* LuckView.m */; };
+		3F87061A1F2B03CB0078DD73 /* UIView+SHCZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8706191F2B03CB0078DD73 /* UIView+SHCZExt.m */; };
+		5D8681BA8D9C47F6C7ADE8DA /* libPods-PhotoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6084E9A1E965E85FEE3D84C9 /* libPods-PhotoTools.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2FB1E41F298BCE00BE3D8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F2FB1E51F298BCE00BE3D8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F2FB1E71F298C0B00BE3D8F /* XDNineGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNineGridViewController.h; sourceTree = "<group>"; };
+		3F2FB1E81F298C0B00BE3D8F /* XDNineGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNineGridViewController.m; sourceTree = "<group>"; };
+		3F2FB1EB1F29B2FB00BE3D8F /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
+		3F2FB1EC1F29B2FB00BE3D8F /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
+		3F2FB1EF1F29D42300BE3D8F /* XDWaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDWaterFallViewController.h; sourceTree = "<group>"; };
+		3F2FB1F01F29D42300BE3D8F /* XDWaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDWaterFallViewController.m; sourceTree = "<group>"; };
+		3F2FB1F21F29D50600BE3D8F /* XDWaterFallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDWaterFallView.h; sourceTree = "<group>"; };
+		3F2FB1F31F29D50600BE3D8F /* XDWaterFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDWaterFallView.m; sourceTree = "<group>"; };
+		3F2FB1F51F29DC5500BE3D8F /* XDWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDWaterFallLayout.h; sourceTree = "<group>"; };
+		3F2FB1F61F29DC5500BE3D8F /* XDWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDWaterFallLayout.m; sourceTree = "<group>"; };
+		3F2FB1F81F29E9DF00BE3D8F /* XDWaterFallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDWaterFallCell.h; sourceTree = "<group>"; };
+		3F2FB1F91F29E9DF00BE3D8F /* XDWaterFallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDWaterFallCell.m; sourceTree = "<group>"; };
+		3F2FB1FB1F29EC7E00BE3D8F /* XDWaterFallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDWaterFallModel.h; sourceTree = "<group>"; };
+		3F2FB1FC1F29EC7E00BE3D8F /* XDWaterFallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDWaterFallModel.m; sourceTree = "<group>"; };
+		3F2FB1FF1F29F1B600BE3D8F /* 0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 0.plist; sourceTree = "<group>"; };
+		3F2FB2001F29F1B600BE3D8F /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		3F2FB2011F29F1B600BE3D8F /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		3F2FB2021F29F1B600BE3D8F /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		3F37EA581F28466100C881C6 /* PhotoTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F37EA5C1F28466100C881C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F37EA5E1F28466100C881C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F37EA5F1F28466100C881C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F37EA651F28466100C881C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F37EA671F28466100C881C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F37EA6A1F28466100C881C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F37EA6C1F28466100C881C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F37EA751F2875DB00C881C6 /* XDNineGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNineGridView.h; sourceTree = "<group>"; };
+		3F37EA761F2875DB00C881C6 /* XDNineGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNineGridView.m; sourceTree = "<group>"; };
+		3F37EA781F28791200C881C6 /* XDNineGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNineGridCell.h; sourceTree = "<group>"; };
+		3F37EA791F28791200C881C6 /* XDNineGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNineGridCell.m; sourceTree = "<group>"; };
+		3F37EA7B1F287B6700C881C6 /* XDNineGridModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNineGridModel.h; sourceTree = "<group>"; };
+		3F37EA7C1F287B6700C881C6 /* XDNineGridModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNineGridModel.m; sourceTree = "<group>"; };
+		3F37EA7E1F28938F00C881C6 /* XDPhotoBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowse.h; sourceTree = "<group>"; };
+		3F37EA7F1F28938F00C881C6 /* XDPhotoBrowse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowse.m; sourceTree = "<group>"; };
+		3F37EA811F28951E00C881C6 /* XDPhotoBrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowseCell.h; sourceTree = "<group>"; };
+		3F37EA821F28951E00C881C6 /* XDPhotoBrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowseCell.m; sourceTree = "<group>"; };
+		3F37EA841F289FA400C881C6 /* XDPhotoBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowseController.h; sourceTree = "<group>"; };
+		3F37EA851F289FA400C881C6 /* XDPhotoBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowseController.m; sourceTree = "<group>"; };
+		3F8706111F2AEF150078DD73 /* XDLuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLuckyViewController.h; sourceTree = "<group>"; };
+		3F8706121F2AEF150078DD73 /* XDLuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLuckyViewController.m; sourceTree = "<group>"; };
+		3F8706151F2AEF4F0078DD73 /* LuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckView.h; sourceTree = "<group>"; };
+		3F8706161F2AEF4F0078DD73 /* LuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckView.m; sourceTree = "<group>"; };
+		3F8706181F2B03CB0078DD73 /* UIView+SHCZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHCZExt.h"; sourceTree = "<group>"; };
+		3F8706191F2B03CB0078DD73 /* UIView+SHCZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHCZExt.m"; sourceTree = "<group>"; };
+		6084E9A1E965E85FEE3D84C9 /* libPods-PhotoTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4691013B46EE3D0F2188AB /* Pods-PhotoTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTools/Pods-PhotoTools.release.xcconfig"; sourceTree = "<group>"; };
+		EF55C3B4D5C4BF061A999B63 /* Pods-PhotoTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTools/Pods-PhotoTools.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F37EA551F28466100C881C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8681BA8D9C47F6C7ADE8DA /* libPods-PhotoTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5722213D9BD1411CA6059F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF55C3B4D5C4BF061A999B63 /* Pods-PhotoTools.debug.xcconfig */,
+				EE4691013B46EE3D0F2188AB /* Pods-PhotoTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F2FB1DF1F298B4800BE3D8F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FB1E31F298BCE00BE3D8F /* C */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3F2FB1E31F298BCE00BE3D8F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FB1E41F298BCE00BE3D8F /* ViewController.h */,
+				3F2FB1E51F298BCE00BE3D8F /* ViewController.m */,
+				3F2FB1E71F298C0B00BE3D8F /* XDNineGridViewController.h */,
+				3F2FB1E81F298C0B00BE3D8F /* XDNineGridViewController.m */,
+				3F2FB1EF1F29D42300BE3D8F /* XDWaterFallViewController.h */,
+				3F2FB1F01F29D42300BE3D8F /* XDWaterFallViewController.m */,
+				3F8706111F2AEF150078DD73 /* XDLuckyViewController.h */,
+				3F8706121F2AEF150078DD73 /* XDLuckyViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		3F2FB1EA1F29B2FB00BE3D8F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3F8706181F2B03CB0078DD73 /* UIView+SHCZExt.h */,
+				3F8706191F2B03CB0078DD73 /* UIView+SHCZExt.m */,
+				3F2FB1EB1F29B2FB00BE3D8F /* UIView+extension.h */,
+				3F2FB1EC1F29B2FB00BE3D8F /* UIView+extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3F2FB1EE1F29D3ED00BE3D8F /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FB1F21F29D50600BE3D8F /* XDWaterFallView.h */,
+				3F2FB1F31F29D50600BE3D8F /* XDWaterFallView.m */,
+				3F2FB1F51F29DC5500BE3D8F /* XDWaterFallLayout.h */,
+				3F2FB1F61F29DC5500BE3D8F /* XDWaterFallLayout.m */,
+				3F2FB1F81F29E9DF00BE3D8F /* XDWaterFallCell.h */,
+				3F2FB1F91F29E9DF00BE3D8F /* XDWaterFallCell.m */,
+				3F2FB1FB1F29EC7E00BE3D8F /* XDWaterFallModel.h */,
+				3F2FB1FC1F29EC7E00BE3D8F /* XDWaterFallModel.m */,
+			);
+			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		3F2FB1FE1F29F1B600BE3D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FB1FF1F29F1B600BE3D8F /* 0.plist */,
+				3F2FB2001F29F1B600BE3D8F /* 1.plist */,
+				3F2FB2011F29F1B600BE3D8F /* 2.plist */,
+				3F2FB2021F29F1B600BE3D8F /* 3.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F37EA4F1F28466100C881C6 = {
+			isa = PBXGroup;
+			children = (
+				3F37EA5A1F28466100C881C6 /* PhotoTools */,
+				3F37EA591F28466100C881C6 /* Products */,
+				0A5722213D9BD1411CA6059F /* Pods */,
+				6622BE153DA306CF7372694D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F37EA591F28466100C881C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F37EA581F28466100C881C6 /* PhotoTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F37EA5A1F28466100C881C6 /* PhotoTools */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FB1FE1F29F1B600BE3D8F /* Resources */,
+				3F37EA5E1F28466100C881C6 /* AppDelegate.h */,
+				3F37EA5F1F28466100C881C6 /* AppDelegate.m */,
+				3F2FB1DF1F298B4800BE3D8F /* Class */,
+				3F37EA721F28737100C881C6 /* Tools */,
+				3F37EA5B1F28466100C881C6 /* Supporting Files */,
+			);
+			path = PhotoTools;
+			sourceTree = "<group>";
+		};
+		3F37EA5B1F28466100C881C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F37EA641F28466100C881C6 /* Main.storyboard */,
+				3F37EA671F28466100C881C6 /* Assets.xcassets */,
+				3F37EA691F28466100C881C6 /* LaunchScreen.storyboard */,
+				3F37EA6C1F28466100C881C6 /* Info.plist */,
+				3F37EA5C1F28466100C881C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F37EA721F28737100C881C6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3F8706141F2AEF4F0078DD73 /* Lucky */,
+				3F2FB1EE1F29D3ED00BE3D8F /* WaterFall */,
+				3F2FB1EA1F29B2FB00BE3D8F /* Category */,
+				3F37EA741F28756D00C881C6 /* NineGrid */,
+				3F37EA731F28737100C881C6 /* PhotoPreview */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3F37EA731F28737100C881C6 /* PhotoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				3F37EA7E1F28938F00C881C6 /* XDPhotoBrowse.h */,
+				3F37EA7F1F28938F00C881C6 /* XDPhotoBrowse.m */,
+				3F37EA811F28951E00C881C6 /* XDPhotoBrowseCell.h */,
+				3F37EA821F28951E00C881C6 /* XDPhotoBrowseCell.m */,
+				3F37EA841F289FA400C881C6 /* XDPhotoBrowseController.h */,
+				3F37EA851F289FA400C881C6 /* XDPhotoBrowseController.m */,
+			);
+			path = PhotoPreview;
+			sourceTree = "<group>";
+		};
+		3F37EA741F28756D00C881C6 /* NineGrid */ = {
+			isa = PBXGroup;
+			children = (
+				3F37EA751F2875DB00C881C6 /* XDNineGridView.h */,
+				3F37EA761F2875DB00C881C6 /* XDNineGridView.m */,
+				3F37EA781F28791200C881C6 /* XDNineGridCell.h */,
+				3F37EA791F28791200C881C6 /* XDNineGridCell.m */,
+				3F37EA7B1F287B6700C881C6 /* XDNineGridModel.h */,
+				3F37EA7C1F287B6700C881C6 /* XDNineGridModel.m */,
+			);
+			path = NineGrid;
+			sourceTree = "<group>";
+		};
+		3F8706141F2AEF4F0078DD73 /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				3F8706151F2AEF4F0078DD73 /* LuckView.h */,
+				3F8706161F2AEF4F0078DD73 /* LuckView.m */,
+			);
+			path = Lucky;
+			sourceTree = "<group>";
+		};
+		6622BE153DA306CF7372694D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6084E9A1E965E85FEE3D84C9 /* libPods-PhotoTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F37EA571F28466100C881C6 /* PhotoTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F37EA6F1F28466100C881C6 /* Build configuration list for PBXNativeTarget "PhotoTools" */;
+			buildPhases = (
+				31D63A23F2C3257CC696DD06 /* [CP] Check Pods Manifest.lock */,
+				3F37EA541F28466100C881C6 /* Sources */,
+				3F37EA551F28466100C881C6 /* Frameworks */,
+				3F37EA561F28466100C881C6 /* Resources */,
+				941BCD672C9505E470871C97 /* [CP] Embed Pods Frameworks */,
+				218DAEBD3FAB31F502D8C597 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTools;
+			productName = PhotoTools;
+			productReference = 3F37EA581F28466100C881C6 /* PhotoTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F37EA501F28466100C881C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = skyApple;
+				TargetAttributes = {
+					3F37EA571F28466100C881C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A64J28E7HR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F37EA531F28466100C881C6 /* Build configuration list for PBXProject "PhotoTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F37EA4F1F28466100C881C6;
+			productRefGroup = 3F37EA591F28466100C881C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F37EA571F28466100C881C6 /* PhotoTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F37EA561F28466100C881C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FB2041F29F1B600BE3D8F /* 1.plist in Resources */,
+				3F37EA6B1F28466100C881C6 /* LaunchScreen.storyboard in Resources */,
+				3F2FB2031F29F1B600BE3D8F /* 0.plist in Resources */,
+				3F2FB2051F29F1B600BE3D8F /* 2.plist in Resources */,
+				3F37EA681F28466100C881C6 /* Assets.xcassets in Resources */,
+				3F37EA661F28466100C881C6 /* Main.storyboard in Resources */,
+				3F2FB2061F29F1B600BE3D8F /* 3.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218DAEBD3FAB31F502D8C597 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTools/Pods-PhotoTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31D63A23F2C3257CC696DD06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		941BCD672C9505E470871C97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTools/Pods-PhotoTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F37EA541F28466100C881C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FB1E61F298BCE00BE3D8F /* ViewController.m in Sources */,
+				3F37EA7A1F28791200C881C6 /* XDNineGridCell.m in Sources */,
+				3F37EA7D1F287B6700C881C6 /* XDNineGridModel.m in Sources */,
+				3F2FB1F11F29D42300BE3D8F /* XDWaterFallViewController.m in Sources */,
+				3F2FB1F71F29DC5500BE3D8F /* XDWaterFallLayout.m in Sources */,
+				3F37EA601F28466100C881C6 /* AppDelegate.m in Sources */,
+				3F2FB1F41F29D50600BE3D8F /* XDWaterFallView.m in Sources */,
+				3F8706171F2AEF4F0078DD73 /* LuckView.m in Sources */,
+				3F37EA771F2875DB00C881C6 /* XDNineGridView.m in Sources */,
+				3F37EA801F28938F00C881C6 /* XDPhotoBrowse.m in Sources */,
+				3F2FB1FA1F29E9DF00BE3D8F /* XDWaterFallCell.m in Sources */,
+				3F87061A1F2B03CB0078DD73 /* UIView+SHCZExt.m in Sources */,
+				3F2FB1ED1F29B2FB00BE3D8F /* UIView+extension.m in Sources */,
+				3F8706131F2AEF150078DD73 /* XDLuckyViewController.m in Sources */,
+				3F37EA831F28951E00C881C6 /* XDPhotoBrowseCell.m in Sources */,
+				3F2FB1FD1F29EC7E00BE3D8F /* XDWaterFallModel.m in Sources */,
+				3F37EA5D1F28466100C881C6 /* main.m in Sources */,
+				3F2FB1E91F298C0B00BE3D8F /* XDNineGridViewController.m in Sources */,
+				3F37EA861F289FA400C881C6 /* XDPhotoBrowseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F37EA641F28466100C881C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F37EA651F28466100C881C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F37EA691F28466100C881C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F37EA6A1F28466100C881C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F37EA6D1F28466100C881C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F37EA6E1F28466100C881C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F37EA701F28466100C881C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF55C3B4D5C4BF061A999B63 /* Pods-PhotoTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A64J28E7HR;
+				INFOPLIST_FILE = PhotoTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XDD.PhotoTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F37EA711F28466100C881C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4691013B46EE3D0F2188AB /* Pods-PhotoTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A64J28E7HR;
+				INFOPLIST_FILE = PhotoTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XDD.PhotoTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F37EA531F28466100C881C6 /* Build configuration list for PBXProject "PhotoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F37EA6D1F28466100C881C6 /* Debug */,
+				3F37EA6E1F28466100C881C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F37EA6F1F28466100C881C6 /* Build configuration list for PBXNativeTarget "PhotoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F37EA701F28466100C881C6 /* Debug */,
+				3F37EA711F28466100C881C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F37EA501F28466100C881C6 /* Project object */;
+}
